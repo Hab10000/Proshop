@@ -156,10 +156,10 @@ const ProductScreen = () => {
               </Card>
             </Col>
           </Row>
-          <Row className='review'>
+          {/* <Row className='review'>
             <Col md={6}>
               <h2>Reviews</h2>
-              {product.reviews.length === 0 && <Message>No Reviews</Message>}
+              {product.reviews === 0 && <Message>No Reviews</Message>}
               <ListGroup variant='flush'>
                 {product.reviews.map((review) => (
                   <ListGroup.Item key={review._id}>
@@ -218,7 +218,7 @@ const ProductScreen = () => {
                 </ListGroup.Item>
               </ListGroup>
             </Col>
-          </Row>
+          </Row> */}
         </>
       )}
     </>
